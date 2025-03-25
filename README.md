@@ -1,20 +1,28 @@
-<<<<<<< HEAD
-# hava_havai_assignment_flutter
-=======
-# havahavai_assignment
+# HavaHavai Assignment
 
-A new Flutter project.
+A Flutter e-commerce application built with **Clean Architecture** and **BLoC** state management.
+
+## Features
+
+- **Product Listing with Pagination**:  
+  - Browse through a list of products with seamless pagination for better performance.
+
+- **Add to Cart Functionality**:  
+  - Users can add products to their cart with a single tap.
+
+- **Quantity Management**:  
+  - Increase or decrease the quantity of items directly from the cart.
+
+- **Real-Time Price Updates**:  
+  - The total amount updates dynamically based on product quantity changes.
+
+- **State Management**:  
+  - Implemented using **BLoC** to maintain a structured and scalable architecture.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project, ensure you have Flutter installed. Then, execute:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 0d50f60 (initial commit)
+```sh
+flutter pub get
+flutter run
